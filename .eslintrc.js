@@ -12,7 +12,5 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
-	"indent": ["error", 2],
-	"semi": 2
     }
 };

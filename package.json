@@ -1,0 +1,23 @@
+{
+  "name": "hello-sqlite",
+  "version": "1.0.0",
+  "description": "Hello sqlite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "eslint": "eslint *.js",
+    "fix": "eslist --fix *.js"
+  },
+  "author": "John Doe",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "md5": "^2.3.0",
+    "prettier": "^2.2.1"
+  }
+}
